@@ -3,15 +3,17 @@
 ## Sumário
 
   - [Sobre o projeto](#sobreoprojeto)
-  - [Layout mobile](#layout-mobile)
   - [Layout web](#layout-web)
+  - [Layout tablet](#layout-tablet)
+  - [Layout mobile](#layout-mobile)
+  
   - [Tecnologias utilizadas](#tecnologias-utilizadas)
   - [O que eu aprendi](#o-que-eu-aprendi)
   - [Acesso a página](#acesso-a-página)
 
 ## Sobre o projeto
 
-Esse projeto se trata de uma página de apresentação do Jogo Ori, onde pode ser ver uma animação na tela de fundo, um menu e ao clicar no botão de apresentação abre-se um vídeo de apresentação do Jogo. O projeto está totalmente responsivo sendo possível ser visualizado em vários tipos dte resolsivo sendo possivel ser visuializado em vários tipos de tela.
+Esse projeto se trata de uma página de apresentação do Jogo Ori, onde pode se ver uma animação na tela de fundo, um menu e ao clicar no botão de apresentação abre-se um vídeo de apresentação do Jogo. O projeto está totalmente responsivo sendo possível ser visualizado em vários tipos em vários tipos de tela.
 <br>
 <br>
 
@@ -43,7 +45,7 @@ Esse projeto se trata de uma página de apresentação do Jogo Ori, onde pode se
 
 - HTML 
 - CSS 
--JS
+- JS
 
 ## O que eu aprendi
 
