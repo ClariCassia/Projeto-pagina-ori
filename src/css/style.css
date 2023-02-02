@@ -97,13 +97,12 @@ body {
   );
   animation: brilho-btn 1s ease-in-out infinite;
   animation-direction: alternate;
-}
-
-.botao-trailer {
+  cursor: pointer;
   font-family: "Segoe-ligth";
   font-size: 1.5rem;
   color: var(--cor-padrao);
 }
+
 .modal {
   position: fixed;
   width: 100vw;
