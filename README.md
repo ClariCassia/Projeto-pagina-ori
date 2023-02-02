@@ -11,8 +11,7 @@
 
 ## Sobre o projeto
 
-Esse projeto se trata de uma página de apresentação do Jogo Ori, onde pode ser ver uma animação na tela de fundo, um menu e ao clicar no botão de apresentação abre-se um vídeo de apresentação do Jogo.
-O projeto está totalmente resolsivo sendo possivel ser visuializado em vários tipos de tela.
+Esse projeto se trata de uma página de apresentação do Jogo Ori, onde pode ser ver uma animação na tela de fundo, um menu e ao clicar no botão de apresentação abre-se um vídeo de apresentação do Jogo. O projeto está totalmente responsivo sendo possível ser visualizado em vários tipos dte resolsivo sendo possivel ser visuializado em vários tipos de tela.
 <br>
 <br>
 
@@ -48,7 +47,7 @@ O projeto está totalmente resolsivo sendo possivel ser visuializado em vários 
 
 ## O que eu aprendi
 
-Neste projeto, aprimorei os conhecimentos no uso flebox, mediaquare. Meu primeiro projeto com JS, onde pude colocar em prática a manipulação do DOM, fazer uso de arrow funcion e atributos.
+Neste projeto, aprimorei os conhecimentos no uso flebox e mediaquare. Meu primeiro projeto com JS, onde pude colocar em prática a manipulação do DOM, fazer uso de arrow funcion e atributos.
 
 
 ## Acesso a página
