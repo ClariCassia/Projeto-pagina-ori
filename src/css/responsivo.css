@@ -1,0 +1,119 @@
+@media (max-width: 1440px) {
+  .cabecalho .logo {
+    max-width: 25rem;
+  }
+
+  .container {
+    height: calc(100vh - 296.41px);
+    align-items: flex-end;
+    justify-content: end;
+    padding: 4rem;
+  }
+
+  .informacoes {
+    display: flex;
+    align-items: center;
+  }
+
+  .descricao {
+    max-width: 74%;
+  }
+
+  .botao-trailer {
+    width: 18rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .descricao {
+    max-width: 70%;
+  }
+  .modal iframe {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .informacoes {
+    flex-direction: column;
+  }
+
+  .descricao {
+    font-size: 2.2rem;
+    max-width: 90%;
+  }
+
+  .botao-trailer {
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .cabecalho .menu ul li {
+    margin: 3rem;
+  }
+
+  .descricao {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .cabecalho .logo {
+    max-width: 20rem;
+  }
+
+  .cabecalho {
+    flex-direction: column;
+  }
+
+  .cabecalho .menu ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cabecalho .menu ul li {
+    margin: 0.5rem;
+  }
+
+  .container {
+    height: calc(100vh - 422.41px);
+  }
+
+  .descricao {
+    max-width: 100%;
+  }
+
+  .botao-trailer {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .cabecalho .menu ul li a {
+    font-size: 1.8rem;
+  }
+
+  .descricao {
+    font-size: 1.2rem;
+  }
+
+  .botao-trailer {
+    min-height: 3rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .descricao {
+    font-size: 1rem;
+  }
+  
+  .botao-trailer {
+    font-size: 1.2rem;
+  }
+}

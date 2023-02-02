@@ -1,0 +1,147 @@
+body {
+  font-family: "Segoe-ligth";
+}
+
+.fundo-video {
+  position: absolute;
+  background-color: var(--cor-segundaria);
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fundo-video .video {
+  height: 100vh;
+}
+
+.fundo-video::after {
+  content: "";
+  background-color: var(--cor-segundaria);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--cor-segundaria);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.47102591036414565) 40%,
+    rgba(0, 0, 0, 1) 96%
+  );
+}
+
+.cabecalho .logo {
+  max-width: 35rem;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cabecalho .menu ul {
+  display: flex;
+}
+
+.cabecalho .menu ul li {
+  margin: 5rem;
+}
+
+.cabecalho .menu ul li a {
+  font-size: 2.2rem;
+  font-weight: 900;
+  color: var(--cor-padrao);
+}
+
+.menu li a:hover {
+  font-weight: bold;
+  text-shadow: 2px 2px 2px var(--cor-azul-forte), 0 0 1em var(--cor-azul-forte),
+    0 0 0.2em var(--cor-azul-forte);
+}
+
+.container {
+  height: calc(100vh - 412.98px);
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+  padding: 5rem;
+}
+
+.informacoes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.descricao {
+  color: var(--cor-padrao);
+  text-align: justify;
+  font-size: 1.5rem;
+  max-width: 60%;
+}
+
+.botao-trailer {
+  width: 30rem;
+  min-height: 6rem;
+  padding: 1rem;
+  border-radius: 0.2rem;
+  background: var(--cor-segundaria);
+  background: linear-gradient(
+    90deg,
+    var(--cor-segundaria) 0%,
+    rgba(1, 143, 243, 0) 48%,
+    var(--cor-segundaria) 100%
+  );
+  animation: brilho-btn 1s ease-in-out infinite;
+  animation-direction: alternate;
+}
+
+.botao-trailer {
+  font-family: "Segoe-ligth";
+  font-size: 1.5rem;
+  color: var(--cor-padrao);
+}
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.conteudo-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  border-radius: 5px;
+  gap: 1rem;
+}
+
+.fechar-modal {
+  color: var(--cor-padrao);
+  background-color: var(--cor-azul-forte);
+  font-weight: bold;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.modal iframe {
+  width: 640px;
+  height: 360px;
+  border-width: 0px;
+}
+
+.aberto {
+  opacity: 1;
+  visibility: visible;
+}

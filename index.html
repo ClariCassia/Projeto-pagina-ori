@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variaveis.css">
+    <link rel="stylesheet" href="src/css/fontes.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/animacoes.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <title>Jogar-Ori</title>
+</head>
+
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="src/video/mylivewallpapers.com-Ori-and-the-Will-Wisps.mp4">
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a href="#"><img class="logo" src="src/imagens/logo.png" alt="Logo-jogo-ori"></a>
+        <nav class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Detalhes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <p class="descricao"> Ori and the Will of the Wisps, conta a história de um jovem órfão destinado ao heroísmo,
+                através de um
+                jogo de plataforma de ação visualmente deslumbrante. Faça parte de uma experiência narrativa
+                desenhada à mão.
+                Com paisagens belíssimas, explore um mundo vasto, exótico e impressionante em 4K e HDR no Xbox Series
+                X, Xbox One X e Windows 10.
+                Uma história instigante e emocionante, descubra o verdadeiro destino de Ori em uma aventura narrativa
+                com cenários feitos à mão e uma trilha sonora estonteante.</p>
+            <button class="botao-trailer">Apresentação do Jogo</button>
+        </div>
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/SuDYRZijXws"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
