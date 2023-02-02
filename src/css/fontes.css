@@ -1,13 +1,9 @@
-
 @font-face {
-    font-family:'Segoe-ligth';
-    src: url(../fontes/SegoePro-LightItalic.ttf);
+  font-family: "Segoe-ligth";
+  src: url(../fontes/SegoePro-LightItalic.ttf);
 }
 
-
 @font-face {
-    font-family:'SegoePro-Black';
-    src: url(../fontes/SegoePro-Black.ttf);
+  font-family: "SegoePro-Black";
+  src: url(../fontes/SegoePro-Black.ttf);
 }
-
-

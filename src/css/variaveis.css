@@ -1,11 +1,6 @@
-:root{  
-    --cor-azul-forte: #018FF3;    
-    --cor-azul-media: #e3e3e8;  
-    --cor-padrao: #f5f5f5;
-    --cor-segundaria:  rgba(0, 0, 0, 1);
-};
-   
-
-
-
-
+:root {
+  --cor-azul-forte: #018ff3;
+  --cor-azul-media: #e3e3e8;
+  --cor-padrao: #f5f5f5;
+  --cor-segundaria: rgba(0, 0, 0, 1);
+}
